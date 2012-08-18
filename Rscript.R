@@ -1,7 +1,7 @@
 # Initialisatie variabelen
 aantal_dobbelstenen_aanvaller <- 3 # Aanvaller gooit met 3 dobbelstenen
 stand_aanvaller <- 0 # Beginstand aanvaller is 0
-stand_verdediger <- 0 # Beginstand verdediger is ook 0
+stand_verdediger <- 0 # Beginstand verdediger is ook 0, net als de aanvaller
 
 
 for (i in 1:100000) { # Begin for-loop die 100 000 wordt herhaald
@@ -26,6 +26,6 @@ for (i in 1:100000) { # Begin for-loop die 100 000 wordt herhaald
   
 } # Einde van de for-loop die 100 000 keer wordt herhaald
 
-stand_aanvaller # Print resultaat stand aanvaller
+stand_aanvaller # Print resultaat stand aanvaller, woohoo
 stand_verdediger # Print resultaat stand verdediger
 stand_aanvaller / stand_verdediger # Ratio aanvaller : verdediger
