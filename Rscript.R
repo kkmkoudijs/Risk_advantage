@@ -1,6 +1,6 @@
 # Initialisatie variabelen
 aantal_dobbelstenen_aanvaller <- 3 # Aanvaller gooit met 3 dobbelstenen
-stand_aanvaller <- 0 # Beginstand aanvaller is 0
+stand_aanvaller <- 0 # Beginstand aanvaller is 0.0
 stand_verdediger <- 0 # Beginstand verdediger is ook 0, net als de aanvaller
 
 
